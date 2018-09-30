@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="ssm.unkown.bca">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".splashscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+        <activity android:name=".SYLLABUS_VIEW" />
+        <activity android:name=".NotesActivity" />
+        <activity android:name=".ContactUs" />
+        <activity android:name=".timetable" />
+        <activity android:name=".datastructure" />
+        <activity android:name=".dbms" />
+        <activity android:name=".probstat" />
+        <activity android:name=".ss" />
+        <activity
+            android:name="com.google.android.gms.ads.AdActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent" />
+        <activity android:name=".activity_dslist" />
+        <activity android:name=".actitivity_sslist" />
+        <activity android:name=".dbmslist" />
+        <activity android:name=".dsalgocompl" />
+        <activity android:name=".arrayds" />
+        <activity android:name=".graphds" />
+        <activity android:name=".stackds" />
+        <activity android:name=".queueds" />
+        <activity android:name=".linkedlistds" />
+        <activity android:name=".treeds" />
+        <activity android:name=".archdbms" />
+        <activity android:name=".intigrdbms" />
+        <activity android:name=".fodbms" />
+        <activity android:name=".ihdbms" />
+        <activity android:name=".racdbms" />
+        <activity android:name=".bdbms" />
+        <activity android:name=".normdbms" />
+        <activity android:name=".ssml" />
+        <activity android:name=".ssassembler" />
+        <activity android:name=".ssevol" />
+        <activity android:name=".ssmacro" />
+        <activity android:name=".ssllc" />
+        <activity android:name=".sspassi" />
+        <activity android:name=".sspassii" />
+    </application>
+
+</manifest>
